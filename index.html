@@ -7,19 +7,27 @@
   <title>My Linktree</title>
   <style>
     body {
+      
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: linear-gradient(to bottom right, #91ac76, #0b8353);
+      /* background: linear-gradient(to bottom right, rgb(235, 147, 4), #bab4de); */
       margin: 10px auto;
-    }
 
+    background-image: url(bg.png); /* The image used for background*/
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+  }
+  
     .container {
       width: 100%;
       padding: 20px;
       box-sizing: border-box;
       text-align: center;
-      background: linear-gradient(to bottom right, #91ac76, #0b8353);
+      /* background: linear-gradient(to bottom right, #c9cd83, #8dd0fc); */
+      
     }
 
     .profile-img {
@@ -33,7 +41,7 @@
       display: block;
       padding: 15px;
       max-width: 100%;
-      background: linear-gradient(to bottom right, #a5be8c, #16885a);
+      background: linear-gradient(to bottom right, #bfd692, #ff8d58);
       text-decoration: none;
       color: #333;
       border-radius: 5px;
@@ -51,8 +59,11 @@
     }
  
     .link:hover {
-      background: linear-gradient(to bottom right, #f4a460, #d2691e);
-    }
+      background: linear-gradient(to bottom right, #cfffaa, #00bc8b);
+      -ms-transform: scale(1.5); /* IE 9 */
+      -webkit-transform: scale(1.5); /* Safari 3-8 */
+      transform: scale(1.5); 
+}
 
     @media (min-width: 1200px) {
       .container {
@@ -83,21 +94,24 @@
       }
     }
   </style>
+   
 </head>
 
 <body>
+
+ 
   <div class="container">
-    <img class="profile-img" src="prashant.jpg" alt="Profile Picture">
-    <h1>Prashant Priyadarshi</h1>
+    <img class="profile-img" src="https://avatars.githubusercontent.com/u/71241536?v=4" alt="Profile Picture">
+    <h1>Abhijeet Kumar</h1>
     <h2>painting gaming coding</h2>
     <!-- <a class="link" href="https://github.com/PrashantUnity">
     <img src="prashant.jpg" alt="GitHub Icon">
     <div>GitHub Account</div>
   </a> -->
-    <a class="link" href="https://github.com/PrashantUnity">GitHub Account</a>
-    <a class="link" href="https://www.linkedin.com/in/prashantunity">Linkedin Account</a>
+    <a class="link" href="https://github.com/abhijeetgitbook">GitHub Account</a>
+    <a class="link" href="https://www.linkedin.com/in/abhijeetgitbook">Linkedin Account</a>
     <a class="link" href="https://learn.microsoft.com/en-us/users/prashantunity/">Microsoft Account</a>
-    <a class="link" href="https://ambitious-sky-02a3c1e10.3.azurestaticapps.net/">Prashant Priyadarshi</a>
+    <a class="link" href="https://ambitious-sky-02a3c1e10.3.azurestaticapps.net/">Abhijeet Kumar</a>
     <a class="link" href="https://prashantunity.github.io/GettingStarted/">Data Structure And Stuff</a>
     <a class="link" href="https://play.unity.com/u/PrashantUnitys">Unity Engine Account</a>
     <a class="link" href="https://github.com/PrashantUnity/SomeCoolScripts">Some Cool Scripts</a>
@@ -105,6 +119,9 @@
     <a class="link" href="https://play.google.com/store/apps/dev?id=7629538091711147079">Google Playstore Developer
       Account</a>
   </div>
+  <script src="
+https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js
+"></script>
 </body>
 
 </html>
